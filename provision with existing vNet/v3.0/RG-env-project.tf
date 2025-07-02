@@ -1,0 +1,29 @@
+
+# Resource Group
+resource "azurerm_resource_group" "rg" {
+  name     = var.resource_group_name
+  location = var.location
+  tags = {
+    ApplicationSupport = "Balraja.Dellimanickam@genpact.com"
+    BusinessVertical   = "Consumer and healthcare(C&H)"
+    CCCode             = 136
+    Department         = "Finance & Accounting(F&A)"
+    Owner              = "Siddhartha.Mahanta@genpact.com"
+    OwnerSupervisor    = "brijesh.nayyar@genpact.com"
+    PID                = 91680180
+    ProjectName        = "Cora Knowledge Assist(Mars)"
+    ProvisionedBy      = "vipin.panchuri@genpact.com"
+    ProvisioningSR     = "RITM3529926-CHG0111924"
+    SDOCode            = 8527
+    ServiceType        = "IaaS"
+    Stack              = "Prod"
+    supportcost        = "$"
+    ProvisionedVia     = "Terraform"
+  }
+}
+
+
+
+
+
+
